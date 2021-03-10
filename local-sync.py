@@ -4,7 +4,7 @@ import csv
 from progress.bar import Bar
 
 if len(sys.argv) != 2:
-    print("python local-sync.py <directory>")
+    print("python {} <directory>".format(sys.argv[0]))
     sys.exit(1)
 
 adcodes_root = sys.argv[1]

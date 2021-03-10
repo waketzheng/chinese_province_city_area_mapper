@@ -31,7 +31,7 @@
 
 > 注:cpca是chinese province city area的缩写
 
-如果觉得本模块对你有用的话，施舍个star，谢谢。
+如果觉得本模块对你有用的话，留下个star，谢谢~
 
 常见安装问题：
 
@@ -46,15 +46,15 @@ Building wheel for pyahocorasick (setup.py) ... error
 
 # 中国行政区划分数据获取
 
-提取自 @Vonng 维护的项目 [adcode](https://github.com/Vonng/adcode)，里面包含中国的所有行政区划和编码
+提取自 @modood 维护的项目 [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)，里面包含中国的所有行政区划和编码
 
 提取的数据文件在为[cpca/resources/adcodes.csv](./cpca/resources/adcodes.csv)
 
-笔者会定期从 adcode 中同步，如果同步的不及时，可以使用本仓库中的 [local-sync.py](local-sync.py) 脚本进行同步，使用方法如下：
+笔者会定期同步数据，如果同步的不及时，可以使用本仓库中的 [local-sync.py](local-sync.py) 脚本进行同步，使用方法如下：
 
 ```shell
-git clone https://github.com/Vonng/adcode.git
-python local-sync.py <adcode所在目录>
+git clone https://github.com/modood/Administrative-divisions-of-China
+python local-sync.py Administrative-divisions-of-China
 ```
 
 # Get Started
