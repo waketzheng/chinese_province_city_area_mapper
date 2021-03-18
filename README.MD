@@ -46,15 +46,15 @@ Building wheel for pyahocorasick (setup.py) ... error
 
 # 中国行政区划分数据获取
 
-提取自 @modood 维护的项目 [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)，里面包含中国的所有行政区划和编码
+提取自 @waketzheng 维护的项目 [adcode](https://github.com/waketzheng/adcode)，里面包含中国的所有行政区划和编码
 
 提取的数据文件在为[cpca/resources/adcodes.csv](./cpca/resources/adcodes.csv)
 
 笔者会定期同步数据，如果同步的不及时，可以使用本仓库中的 [local-sync.py](local-sync.py) 脚本进行同步，使用方法如下：
 
 ```shell
-git clone https://github.com/modood/Administrative-divisions-of-China
-python local-sync.py Administrative-divisions-of-China
+git clone https://github.com/waketzheng/adcode.git
+python local-sync.py adcode
 ```
 
 # Get Started
@@ -374,4 +374,4 @@ def echarts_cate_draw(locations, labels, file_path, title="地域分布图", sub
 
 # END
 
-如果大家在使用过程中发现一些匹配错误的地址，欢迎提issue来帮助我收集这些错误用例和改善算法，毕竟笔者手头数据有限，难以考虑到所有边界情况
+如果大家在使用过程中发现一些匹配错误的地址，欢迎提issue来帮助我收集这些错误用例和改善算法，毕竟笔者手头数据有限，难以考虑到所有边界情况。

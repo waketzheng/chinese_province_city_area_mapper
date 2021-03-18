@@ -32,9 +32,9 @@ class PyTest(TestCommand):
 README = Path(__file__).parent / 'README.rst'
 
 requires = [
-           'pandas',
-           'pyahocorasick'
-           ]
+   'pandas',
+   'pyahocorasick'
+]
 
 
 setup(
